@@ -1,19 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import Header from './Component/Header/Header';
-import Courses from './Component/Courses/Courses';
-// import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import OnlineCourse from './components/OnlineCourse/OnlineCourse';
 
 function App() {
   return (
     <div>
-      <header>
-        <Header></Header>
-        <Courses></Courses>
-      </header>
+      <OnlineCourse/>
     </div>
   );
-} 
+}
 
 export default App;
- 
